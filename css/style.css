@@ -1,0 +1,323 @@
+*{margin: 0;padding: 0;}
+html{ font-family: "Microsoft YaHei"; color:#333; font-size:100px;}
+html,body{width:100%;min-width:7.2rem;height:100%;}
+body,p,ul,ol,dl,dd,dt,p,h2,h3,h4,h5,h6{ margin:0; padding:0; font-size:0.14rem;text-indent:0;}
+li{ list-style:none; }
+a{ text-decoration:none; color:#333; }
+a img{ border:0; }
+img{ vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+.clear{ *zoom:1; }
+.clear:after{ content:""; display:block; clear:both; }
+.fl{float: left}
+.fr{float: right}
+
+.main{width: 7.2rem;margin: 0 auto}
+.zg-wrap{margin: 0 auto;width: 7.2rem;}
+/*头部*/
+.zg_header{
+	height: 0.5rem;
+	width: 100%;
+	background: #1b1b1b;
+}
+.logo{
+	width: 1.60rem;
+	height: 0.5rem;
+	margin-left: 0.1rem
+}
+.logo img{
+	width:1.60rem;
+	height: 0.5rem;
+}
+.phone{
+	font: bold 0.18rem/0.5rem "Microsoft YaHei";
+	margin-right: 0.1rem;
+	padding-left: 0.35rem;
+	background: url(../images/phone.png) no-repeat left center;
+	background-size: 0.26rem;
+}
+.phone a{
+	color: #fff;
+}
+
+.banner{
+    height: 7.2rem;
+    background: url("../images/banner.jpg") no-repeat center;
+    -webkit-background-size: 7.2rem;
+    background-size: 7.2rem;
+    overflow: hidden;
+}
+.banner h1{
+    text-indent: -9999rem;
+    width: 6.57rem;
+    height: 2.63rem;
+    float: left;
+    margin-left:0.3rem;
+    margin-top:1.44rem;
+    background: url("../images/m1.png") no-repeat center;
+    -webkit-background-size: 6.57rem;
+    background-size: 6.57rem;
+}
+.zg-main1{
+    overflow: hidden;
+    background: #97cd41;
+    padding-bottom: 0.44rem;
+}
+.zg-main1 h2{
+    text-indent: -9999rem;
+    height:1.34rem;
+    background: url("../images/m2.png") no-repeat center;
+    -webkit-background-size: 7.06rem;
+    background-size: 7.06rem;
+}
+.m1-cont1{
+    width:7rem;
+    height:12.44rem;
+    background: url("../images/m3.png") no-repeat center;
+    -webkit-background-size: 7rem;
+    background-size: 7rem;
+    margin: 0.35rem auto 0;
+    overflow: hidden;
+}
+.introduce b{
+    display: block;
+    margin-left:0.5rem;
+    margin-top:0.76rem;
+    padding-left:0.22rem;
+    font:normal 0.28rem/0.55rem '微软雅黑';
+    background: url("../images/m5.png") no-repeat left center;
+    -webkit-background-size: 1.74rem;
+    background-size: 1.74rem;
+}
+.introduce p{
+    font:normal 0.24rem/0.5rem '微软雅黑';
+    margin-left:0.7rem;
+    margin-top:15px;
+}
+.prize > b{
+    display: block;
+    margin-left:0.5rem;
+    margin-top:0.25rem;
+    padding-left:0.22rem;
+    font:normal 0.28rem/0.55rem '微软雅黑';
+    background: url("../images/m6.png") no-repeat left center;
+    -webkit-background-size: 1.74rem;
+    background-size: 1.74rem;
+}
+.prize p{
+    font:normal 0.24rem/0.5rem '微软雅黑';
+    margin-left:0.39rem;
+    margin-top:0.15rem;
+    padding-left:0.3rem;
+    background: url("../images/m7.png") no-repeat left 0.1rem;
+    -webkit-background-size: 0.29rem;
+    background-size: 0.29rem;
+}
+.prize p span{
+    color: #e7574c;
+}
+.qr{
+    width:7.2rem;
+    height: 3.4rem;
+    background: url("../images/m8.png") no-repeat 0.6rem 0.3rem;
+    -webkit-background-size: 5.79rem;
+    background-size: 5.79rem;
+}
+.qr img{
+    margin-left:4.11rem;
+    margin-top:1.25rem;
+    width:1.19rem;
+}
+.m1-cont2{
+    height:4.05rem;
+    background: url("../images/m4.png") no-repeat center top;
+    -webkit-background-size: 7rem;
+    background-size: 7rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.m1-cont2 p{
+    font:normal 0.24rem/0.5rem '微软雅黑';
+    margin-top:0.57rem;
+    margin-left:1.25rem;
+}
+.zg-main2{
+    overflow: hidden;
+    background: #97cd41;
+    padding-bottom: 0.44rem;
+}
+.zg-main2 h2{
+    height:1.04rem;
+    text-indent: -9999rem;
+    background: url("../images/m10.png") no-repeat center;
+    -webkit-background-size: 5.45rem;
+    background-size: 5.45rem;
+}
+.zg-main2 > a{
+    display: block;
+    text-indent: -9999rem;
+    height:0.26rem;
+    background: url("../images/m11.png") no-repeat 5.65rem center;
+    -webkit-background-size: 1.44rem;
+    background-size: 1.44rem;
+    margin-top:0.2rem;
+}
+.m2-cont{
+    height: 6.98rem;
+    background: url("../images/m12.png") no-repeat center top;
+    -webkit-background-size: 7.1rem;
+    background-size: 7.1rem;
+    margin: 0.4rem auto 0;
+    overflow: hidden;
+}
+.btn-box{
+    width: 6.3rem;
+    height:1.13rem;
+    border-bottom: 0.04rem solid #504e38;
+    margin: 0.5rem 0 0 0.4rem;
+    overflow: hidden;
+}
+.btn-box li{
+    float: left;
+    margin-left:0.07rem;
+    margin-top:0.33rem;
+    width:1.5rem;
+    height:0.48rem;
+    font:normal 0.28rem/0.48rem '微软雅黑';
+    text-align: center;
+    background: url("../images/m13.png") no-repeat center;
+    -webkit-background-size: 1.5rem;
+    background-size: 1.5rem;
+    transition: 0.3s;
+}
+.btn-box li.on{
+    background: url("../images/m14.png") no-repeat center;
+    -webkit-background-size: 1.5rem;
+    background-size: 1.5rem;
+    margin-top:0.43rem;
+}
+.show-box{
+    overflow: hidden;
+    margin-top:0.43rem;
+    display: none;
+}
+.show-box li{
+    float: left;
+    margin-left:0.6rem;
+    overflow: hidden;
+}
+.show-box li div{
+    width: 2.68rem;
+    height:2.16rem;
+    background: url("../images/m15.png") no-repeat center;
+    -webkit-background-size: 2.68rem;
+    background-size: 2.68rem;
+    overflow: hidden;
+}
+.show-box li div p{
+    text-align: center;
+    font:normal 0.28rem/0.4rem '微软雅黑';
+    margin-top:0.3rem;
+}
+.show-box li div a{
+    display: block;
+    width:1.74rem;
+    height:0.48rem;
+    text-align: center;
+    font:normal 0.22rem/0.48rem '微软雅黑';
+    background: url("../images/m16.png") no-repeat center;
+    -webkit-background-size: 1.74rem;
+    background-size: 1.74rem;
+    margin: 0.15rem auto;
+}
+.show-box li > p{
+    text-align: center;
+    font:normal 0.24rem/0.4rem '微软雅黑';
+    margin-top:0.1rem;
+}
+.show-box2 div span{
+    display: block;
+    font-size:0.24rem;
+    line-height:0.24rem;
+    text-align: center;
+    margin-top:0.13rem;
+}
+.show-box2 div a{
+   margin: 0.3rem auto 0!important;
+}
+.zg-main3{
+    height:9.95rem;
+    background: url("../images/m18.jpg") no-repeat center;
+    -webkit-background-size: 7.2rem;
+    background-size: 7.2rem;
+    overflow: hidden;
+}
+.zg-main3 h2{
+    text-indent: -9999rem;
+    height:1.35rem;
+    background: url("../images/m19.png") no-repeat center;
+    -webkit-background-size: 7.01rem;
+    background-size: 7.01rem;
+}
+.m3-cont{
+    width:7rem;
+    height:4.82rem;
+    background: url("../images/m20.png") no-repeat center;
+    -webkit-background-size: 7rem;
+    background-size: 7rem;
+    margin: 0.36rem auto 0;
+    overflow: hidden;
+}
+.m3-cont b{
+    display: block;
+    margin-left:0.6rem;
+    padding-left:0.2rem;
+    font:normal 0.28rem/0.53rem '微软雅黑';
+}
+.m3-cont p{
+    font:normal 0.24rem/0.5rem '微软雅黑';
+    margin-left:0.76rem;
+    margin-top:0.16rem;
+}
+.m3-cont p a{
+    color: #ff4538;
+    text-decoration: underline;
+}
+.fix{
+    width: 7.2rem;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    height: 0.68rem;
+    z-index:999;
+}
+.fix a{
+    display: block;
+    flex:1;
+    height: 100%;
+    text-align: center;
+    line-height: 0.68rem;
+    font-size: 0.24rem;
+    color: #fff
+}
+.fix1{
+    background: url(../images/fix1.png) no-repeat 15% center #000;
+    -webkit-background-size: 0.46rem;
+    background-size: 0.46rem;
+}
+.fix2{
+    background: url(../images/fix2.png) no-repeat 15% center #e62929;
+    -webkit-background-size: 0.61rem;
+    background-size: 0.61rem;
+}
+.zixun{
+    position: fixed;
+    right:0;
+    top:50%;
+}
+.zixun a{
+    display: block;
+}
+.zixun a img{
+    width:1.13rem;
+}
